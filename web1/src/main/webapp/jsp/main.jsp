@@ -9,12 +9,11 @@
 <body>
 	<%@ include file="header.jsp" %>
 	<main>
-	
-	<%
-		int age = 10;
-		out.print(age);
-	%>
-	<h1>메인영역</h1>
+		<%
+			//int age = 10;
+			//out.print(age);
+		%>
+		<h3>main 영역</h3>
 	</main>
 	<%@ include file="footer.jsp" %>
 </body>
