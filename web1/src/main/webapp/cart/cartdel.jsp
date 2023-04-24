@@ -8,5 +8,7 @@
 </head>
 <body>
 <h1>장바구니 비우기</h1>
+<% session.removeAttribute("products"); %>
+<h4><a href="cart.html">상품선택</a></h4>
 </body>
 </html>
